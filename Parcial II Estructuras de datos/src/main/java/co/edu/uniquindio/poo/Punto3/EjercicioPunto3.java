@@ -17,12 +17,6 @@ public class EjercicioPunto3 {
             return seleccionadas;
         }
 
-
-        // ---------------------------------------------
-        // PRIMER RECORRIDO:
-        // Solicitudes de prioridad ALTA
-        // ---------------------------------------------
-
         int cantidad =
                 pendientes.getSize();
 
@@ -57,12 +51,6 @@ public class EjercicioPunto3 {
                 );
             }
         }
-
-
-        // ---------------------------------------------
-        // SEGUNDO RECORRIDO:
-        // Solicitudes de prioridad NORMAL
-        // ---------------------------------------------
 
         cantidad =
                 pendientes.getSize();

@@ -30,7 +30,6 @@ public class Main {
                 )
         );
 
-
         pendientes.encolar(
                 new Solicitud(
                         "S3",
@@ -39,7 +38,6 @@ public class Main {
                 )
         );
 
-
         pendientes.encolar(
                 new Solicitud(
                         "S4",
@@ -47,7 +45,6 @@ public class Main {
                         5
                 )
         );
-
 
         System.out.println(
                 "SOLICITUDES PENDIENTES ANTES:"
@@ -77,11 +74,6 @@ public class Main {
 
         pendientes.imprimir();
 
-
-        // ---------------------------------------------
-        // PRUEBA CON TIEMPO IGUAL A CERO
-        // ---------------------------------------------
-
         Cola<Solicitud> pruebaCero =
                 new Cola<>(5);
 
@@ -94,7 +86,6 @@ public class Main {
                 )
         );
 
-
         pruebaCero.encolar(
                 new Solicitud(
                         "S2",
@@ -102,7 +93,6 @@ public class Main {
                         30
                 )
         );
-
 
         Cola<Solicitud> seleccionadasCero =
                 EjercicioPunto3
